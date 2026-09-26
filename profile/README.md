@@ -1,15 +1,33 @@
 # KDPA LLC
 
-KDPA LLC is the home of three public AI developer-tool projects designed, built, and maintained by Rafael Konrath Damaceno ([@moscaverd](https://github.com/moscaverd)).
+Open-source infrastructure for portable AI skills, context-efficient MCP access, and long-lived collaborative agents.
 
-Rafael develops these projects through **conversational specification and agent orchestration**. He defines goals, architecture, behavior, and acceptance criteria; directs AI agents that implement code, tests, and documentation; and guides review, validation, and ongoing maintenance.
+KDPA LLC publishes public projects designed through conversational specification and agent orchestration. [Rafael Konrath Damaceno](https://github.com/moscaverd) is the technical owner: he defines the problem, architecture, interfaces, constraints, acceptance criteria, validation approach, and ongoing direction while AI agents execute scoped implementation, testing, documentation, and review tasks.
 
-## Public projects
+## Projects
 
-| Project | What it does |
-| --- | --- |
-| [Local Skills MCP](https://github.com/kdpa-llc/local-skills-mcp) | Makes reusable skill instructions from the local filesystem available to MCP clients, with content loaded on demand. |
-| [MCP Compression Proxy](https://github.com/kdpa-llc/mcp-compression-proxy) | Connects multiple MCP servers through a local gateway, with tool search, on-demand schema discovery through its CLI, and a native MCP endpoint. |
-| [Peers](https://github.com/kdpa-llc/peers) | Provides a control plane for persistent AI agents with responsibilities, memory, messaging, delegation, and permissions. |
+### [Peers](https://github.com/kdpa-llc/peers)
 
-Each repository documents its setup, current capabilities, and limitations.
+An active experimental control plane for responsibility-driven agents with identity, durable memory, delegation, permissions, budgets, provenance, observability, lifecycle management, provider-swappable model adapters, and explicit contracts.
+
+### [MCP Compression Proxy](https://github.com/kdpa-llc/mcp-compression-proxy)
+
+A local gateway for progressive tool discovery, context-efficient schema access through its CLI or lazy-exposure mode, shaped results, large-output controls, and aggregation of local and remote MCP servers.
+
+### [Local Skills MCP](https://github.com/kdpa-llc/local-skills-mcp)
+
+Portable local skills for MCP-compatible agents and clients, with on-demand loading, validation, hot reload, multi-source discovery, and trigger evaluation.
+
+## Engineering approach
+
+- Make problems, constraints, contracts, tradeoffs, and limitations explicit.
+- Combine deterministic checks with adversarial or model-based evaluation where appropriate.
+- Document security and execution limitations instead of presenting experimental infrastructure as production proven.
+
+Each repository currently publishes under the MIT License. Start with its README and security notes before using it with systems or data you care about.
+
+## Contact
+
+[Rafael Konrath Damaceno](https://github.com/moscaverd) - engineering leader and AI systems builder focused on cloud platforms, distributed systems, developer productivity, and AI-agent infrastructure.
+
+Connect on [LinkedIn](https://www.linkedin.com/in/rafaelkd).
