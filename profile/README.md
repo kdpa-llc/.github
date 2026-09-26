@@ -2,7 +2,7 @@
 
 Open-source infrastructure for portable AI skills, context-efficient MCP access, and long-lived collaborative agents.
 
-KDPA LLC publishes public projects designed through conversational specification and agent orchestration. [Rafael Konrath Damaceno](https://github.com/moscaverd) is the technical owner: he defines the problem, architecture, interfaces, constraints, acceptance criteria, validation approach, and ongoing direction while AI agents execute scoped implementation, testing, documentation, and review tasks.
+[Rafael Konrath Damaceno](https://github.com/moscaverd) designs, builds, and maintains KDPA LLC's three public AI developer-tool projects through conversational specification and agent orchestration. As technical owner, he defines the problem, architecture, interfaces, constraints, acceptance criteria, validation approach, and ongoing direction while AI agents execute scoped implementation, testing, documentation, and review tasks.
 
 ## Projects
 
