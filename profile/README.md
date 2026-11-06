@@ -6,17 +6,17 @@ Open-source infrastructure for portable AI skills, context-efficient MCP access,
 
 ## Projects
 
-### [Peers](https://github.com/kdpa-llc/peers)
+### [Local Skills MCP](https://github.com/kdpa-llc/local-skills-mcp)
 
-An active experimental control plane for responsibility-driven agents with identity, durable memory, delegation, permissions, budgets, provenance, observability, lifecycle management, provider-swappable model adapters, and explicit contracts.
+Portable local skills for MCP-compatible agents and clients, with on-demand loading, validation, hot reload, multi-source discovery, and trigger evaluation.
 
 ### [MCP Compression Proxy](https://github.com/kdpa-llc/mcp-compression-proxy)
 
 A local gateway for progressive tool discovery, context-efficient schema access through its CLI or lazy-exposure mode, shaped results, large-output controls, and aggregation of local and remote MCP servers.
 
-### [Local Skills MCP](https://github.com/kdpa-llc/local-skills-mcp)
+### [Peers](https://github.com/kdpa-llc/peers) (experimental)
 
-Portable local skills for MCP-compatible agents and clients, with on-demand loading, validation, hot reload, multi-source discovery, and trigger evaluation.
+An active experimental control plane for responsibility-driven agents with identity, durable memory, delegation, permissions, budgets, provenance, observability, lifecycle management, provider-swappable model adapters, and explicit contracts.
 
 ## Engineering approach
 
@@ -28,6 +28,6 @@ Each repository currently publishes under the MIT License. Start with its README
 
 ## Contact
 
-[Rafael Konrath Damaceno](https://github.com/moscaverd) - engineering leader and AI systems builder focused on cloud platforms, distributed systems, developer productivity, and AI-agent infrastructure.
+[Rafael Konrath Damaceno](https://github.com/moscaverd) works on distributed systems, Apache Kafka, cloud reliability and developer productivity.
 
 Connect on [LinkedIn](https://www.linkedin.com/in/rafaelkd).
