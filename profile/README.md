@@ -1,33 +1,37 @@
 # KDPA LLC
 
-Open-source infrastructure for portable AI skills, context-efficient MCP access, and long-lived collaborative agents.
-
-[Rafael Konrath Damaceno](https://github.com/moscaverd) designs, builds, and maintains KDPA LLC's three public AI developer-tool projects through conversational specification and agent orchestration. As technical owner, he defines the problem, architecture, interfaces, constraints, acceptance criteria, validation approach, and ongoing direction while AI agents execute scoped implementation, testing, documentation, and review tasks.
+KDPA LLC builds open-source tools for developers who work with AI agents.
 
 ## Projects
 
 ### [Local Skills MCP](https://github.com/kdpa-llc/local-skills-mcp)
 
-Portable local skills for MCP-compatible agents and clients, with on-demand loading, validation, hot reload, multi-source discovery, and trigger evaluation.
+Portable local skills for MCP-compatible agents and clients, with on-demand loading, validation, hot reload, multi-source discovery and trigger evaluation.
 
 ### [MCP Compression Proxy](https://github.com/kdpa-llc/mcp-compression-proxy)
 
-A local gateway for progressive tool discovery, context-efficient schema access through its CLI or lazy-exposure mode, shaped results, large-output controls, and aggregation of local and remote MCP servers.
+A local MCP gateway with progressive tool discovery, context-efficient schema access through its CLI or lazy-exposure mode, shaped results, large-output controls, and aggregation of local and remote MCP servers.
+
+### [agent-box](https://github.com/kdpa-llc/agent-box) (early)
+
+A shared Linux desktop with Chromium and a password vault for the AI agents on your Mac or Linux machine. Agents drive the browser with playwright-cli, and you can watch and take over from your phone.
 
 ### [Peers](https://github.com/kdpa-llc/peers) (experimental)
 
-An active experimental control plane for responsibility-driven agents with identity, durable memory, delegation, permissions, budgets, provenance, observability, lifecycle management, provider-swappable model adapters, and explicit contracts.
+An experimental control plane for long-lived AI agents, with identity, durable memory, delegation, permissions, budgets and provenance.
 
-## Engineering approach
+## How the projects are built
 
-- Make problems, constraints, contracts, tradeoffs, and limitations explicit.
-- Combine deterministic checks with adversarial or model-based evaluation where appropriate.
-- Document security and execution limitations instead of presenting experimental infrastructure as production proven.
+The projects are built through specification and AI agent orchestration. A maintainer sets the problem, design, constraints and acceptance bar. AI agents implement and test in scoped steps, and a maintainer reviews and accepts the result.
 
-Each repository currently publishes under the MIT License. Start with its README and security notes before using it with systems or data you care about.
+- Problems, constraints, contracts, tradeoffs and limits are written down.
+- Deterministic checks are combined with adversarial or model-based evaluation where it fits.
+- Each project documents its security and execution limits. Experimental projects are labeled experimental, not presented as production-ready.
+
+Every project uses the MIT License. Read its README and security notes before you use it with systems or data you care about.
 
 ## Contact
 
-[Rafael Konrath Damaceno](https://github.com/moscaverd) works on distributed systems, Apache Kafka, cloud reliability and developer productivity.
+[Rafael Konrath Damaceno](https://github.com/moscaverd) is one of the founders of KDPA LLC and one of the active contributors to its repositories.
 
-Connect on [LinkedIn](https://www.linkedin.com/in/rafaelkd).
+For questions about a project, open an issue in its repository.
