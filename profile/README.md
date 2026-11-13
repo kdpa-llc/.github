@@ -5,6 +5,7 @@
 <a href="https://github.com/kdpa-llc/mcp-compression-proxy"><img alt="MCP Compression Proxy" src="assets/mcp-compression-proxy.jpg" width="49%"></a>
 <a href="https://github.com/kdpa-llc/agent-box"><img alt="agent-box" src="assets/agent-box.jpg" width="49%"></a>
 <a href="https://github.com/kdpa-llc/peers"><img alt="Peers" src="assets/peers.jpg" width="49%"></a>
+<a href="https://github.com/kdpa-llc/t3-micro2"><img alt="t3-micro2" src="assets/t3-micro2.jpg" width="49%"></a>
 </p>
 
 ## Projects
@@ -13,6 +14,7 @@
 - **[MCP Compression Proxy](https://github.com/kdpa-llc/mcp-compression-proxy):** a local MCP gateway with progressive tool discovery, context-efficient schema access through its CLI or lazy-exposure mode, shaped results, large-output controls, and aggregation of local and remote MCP servers.
 - **[agent-box](https://github.com/kdpa-llc/agent-box), early:** a shared Linux desktop with Chromium and a password vault for the AI agents on your Mac or Linux machine. Agents drive the browser with playwright-cli, and you can watch and take over from your phone.
 - **[Peers](https://github.com/kdpa-llc/peers), experimental:** a control plane for long-lived AI agents, with identity, durable memory, delegation, permissions, budgets and provenance.
+- **[t3-micro2](https://github.com/kdpa-llc/t3-micro2), early:** a Work Louder Creator Micro 2 for T3 Code on macOS. Six keys show the state of your threads and open them, and the other keys, the knob and the joystick run T3 Code actions.
 
 ## Get started
 
